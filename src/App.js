@@ -14,7 +14,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className='bg-slate-800'>
+      <div className='h-max-content'>
         {
           loading ?
           <Loader/>

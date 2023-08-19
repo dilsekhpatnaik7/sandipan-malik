@@ -2,7 +2,7 @@ import React from 'react'
 
 const BookChapter = () => {
   return (
-    <div className='bg-red-700'> 
+    <div className='bg-gray-50 p-6 pt-4 mt-4 rounded-2xl drop-shadow-2xl'> 
       <section className="mx-auto max-w-screen-xl pb-12 px-4 lg:flex md:px-8 -m-4">
             <div className="bookchapter-area mt-5">
                 <h1 className='font-bold text-2xl inline-block border-b mb-2'>Book Chapter</h1>

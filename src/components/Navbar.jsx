@@ -7,8 +7,10 @@ const Navbar = () => {
   const [state, setState] = useState(false)
 
   return (
-      <nav className="px-4 bg-white w-full md:border-0">
-          <div className="items-center px-4 mx-auto md:flex bg-textc">
+        // F1F6F9  398467  212A3E   9BA4B5
+      <div className='top-0'>
+            <nav className="px-4 bg-gradient-to-r from-gray-50 to-gray-300 w-full md:border-0 drop-shadow-2xl">
+          <div className="items-center lg:px-4 mx-auto md:flex">
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <a href="http://nist.edu">
                         <img
@@ -38,17 +40,18 @@ const Navbar = () => {
               </div>
               <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 transition-all ease-out duration-500 ${ state ? 'block' : 'hidden'}`}>
                   <ul className="justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0 transition-all ease-out duration-500">
-                        <li className="text-gray-900 hover:text-indigo-600" onClick={() => setState(!state)}><NavLink to='/'>Home</NavLink></li>
-                        <li className="text-gray-900 hover:text-indigo-600" onClick={() => setState(!state)}><NavLink to='/about'>About</NavLink></li>
-                        <li className="text-gray-900 hover:text-indigo-600" onClick={() => setState(!state)}><NavLink to='/education'>Education</NavLink></li>
-                        <li className="text-gray-900 hover:text-indigo-600" onClick={() => setState(!state)}><NavLink to='/research'>Research</NavLink></li>
-                        <li>
-                            
-                        </li>
+                        <li className="text-gray-900 hover:font-bold" onClick={() => setState(!state)}><NavLink to='/'>Home</NavLink></li>
+                        <li className="text-gray-900 hover:font-bold" onClick={() => setState(!state)}><NavLink to='/about'>About</NavLink></li>
+                        <li className="text-gray-900 hover:font-bold" onClick={() => setState(!state)}><NavLink to='/education'>Education</NavLink></li>
+                        <li className="text-gray-900 hover:font-bold" onClick={() => setState(!state)}><NavLink to='/research'>Research</NavLink></li>
+                        <li className="text-gray-900 hover:font-bold" onClick={() => setState(!state)}><NavLink to='/conference'>Conference</NavLink></li>
+                        <li className="text-gray-900 hover:font-bold" onClick={() => setState(!state)}><NavLink to='/mentorship'>Mentorship</NavLink></li>
+                        <li className="text-gray-900 hover:font-bold" onClick={() => setState(!state)}><NavLink to='/gallery'>Gallery</NavLink></li>
                   </ul>
               </div>
           </div>
       </nav>
+      </div>
   )
 }
 

@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 .active {
-    @apply font-bold
+    @apply font-bold;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
+* {
+    scroll-behavior: smooth;
+} 
+
+body {
+    @apply bg-gradient-to-tr from-[#feffff] to-[#212A3E] h-full;
 }
-  

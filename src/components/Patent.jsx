@@ -2,7 +2,7 @@ import React from 'react'
 
 const Patent = () => {
   return (
-    <div>
+    <div className='bg-gray-50 p-6 pt-4 mt-2 rounded-2xl drop-shadow-2xl'>
         <section className=" mx-auto max-w-screen-xl pb-6 mb-4 px-4 lg:flex md:px-8">
             <div className="patent-area">
                 <h1 className='font-bold text-2xl inline-block border-b mb-2'>Patents</h1>

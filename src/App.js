@@ -14,7 +14,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className='h-max-content'>
+      <div className='h-auto'>
         {
           loading ?
           <Loader/>

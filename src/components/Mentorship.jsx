@@ -1,11 +1,12 @@
 import React from 'react'
 import StudentCard from './StudentCard'
+import photo from '../assets/students'
 
 const Mentorship = () => {
   
     const students = [
       {
-        photo: '',
+        photo: photo.blank,
         name: 'Rohit Raj Padhy',
         position: 'MS',
         branch: 'ECE/2023',
@@ -13,7 +14,7 @@ const Mentorship = () => {
         email: ''
       },
       {
-        photo: '',
+        photo: photo.blank,
         name: 'S Sovan Kumar',
         position: 'MS',
         branch: 'ECE/2023',
@@ -21,7 +22,7 @@ const Mentorship = () => {
         email: ''
       },
       {
-        photo: '',
+        photo: photo.blank,
         name: 'Harshit Sourav',
         position: 'MS-PhD',
         branch: 'ECE/2023',
@@ -29,7 +30,7 @@ const Mentorship = () => {
         email: ''
       },
       {
-        photo: '',
+        photo: photo.blank,
         name: 'Soumya R Dash',
         position: 'MS',
         branch: 'ECE/2022',
@@ -37,7 +38,7 @@ const Mentorship = () => {
         email: ''
       },
       {
-        photo: '',
+        photo: photo.blank,
         name: 'Debasish Panda',
         position: 'MS',
         branch: 'ECE/2022',
@@ -45,7 +46,7 @@ const Mentorship = () => {
         email: 'pdebasish624@gmail.com'
       },
       {
-        photo: '',
+        photo: photo.blank,
         name: 'Abinash Patnaik',
         position: 'MS',
         branch: 'ECE/2021',
@@ -53,7 +54,7 @@ const Mentorship = () => {
         email: 'abinashpattnaik1998@gmail.com'
       },
       {
-        photo: '',
+        photo: photo.shitikant,
         name: 'S Mohanty',
         position: 'MS',
         branch: 'ECE/2021',
@@ -61,7 +62,7 @@ const Mentorship = () => {
         email: 'msheetikanta@gmail.com'
       },
       {
-        photo: '',
+        photo: photo.blank,
         name: 'Bimalendu Swain',
         position: 'MS-PhD',
         branch: 'EEE/2021',
@@ -69,7 +70,7 @@ const Mentorship = () => {
         email: 'swainbimalendu064@gmail.com'
       },
       {
-        photo: '',
+        photo: photo.darsana,
         name: 'Darsana Deo',
         position: 'MS',
         branch: 'ECE/2021',
@@ -77,7 +78,7 @@ const Mentorship = () => {
         email: ''
       },
       {
-        photo: '',
+        photo: photo.shivendra,
         name: 'Shivendra P Singh',
         position: 'MS',
         branch: 'ECE/2021',
@@ -85,7 +86,7 @@ const Mentorship = () => {
         email: 'singhshivendra177@gmail.com'
       },
       {
-        photo: '',
+        photo: photo.bishal,
         name: 'Bishal Kr Nayak',
         position: 'MS',
         branch: 'ECE/2021',
@@ -93,7 +94,7 @@ const Mentorship = () => {
         email: 'nahakbishal@gmail.com'
       },
       {
-        photo: '',
+        photo: photo.lucky,
         name: 'Lucky Kr Pradhan',
         position: 'MS',
         branch: 'ECE/2021',
@@ -101,7 +102,7 @@ const Mentorship = () => {
         email: 'kumarlucky8000@gmail.com'
       },
       {
-        photo: '',
+        photo: photo.swosti,
         name: 'Swosti Choudhury',
         position: 'MS',
         branch: 'EEE/2021',
@@ -109,7 +110,7 @@ const Mentorship = () => {
         email: 'choudhuryswosti1999@gmail.com'
       },
       {
-        photo: '',
+        photo: photo.ajit,
         name: 'Ajit Dash',
         position: 'PhD',
         branch: 'ECE/2020',
@@ -117,7 +118,7 @@ const Mentorship = () => {
         email: 'ajitdash58@gmail.com '
       },
       {
-        photo: '',
+        photo: photo.abhijeet,
         name: 'Abhijeet Choudhury',
         position: 'MS',
         branch: 'ECE/2019',
@@ -125,7 +126,7 @@ const Mentorship = () => {
         email: 'abhijeetchoudhury101@gmail.com'
       },
       {
-        photo: '',
+        photo: photo.aditya,
         name: 'Aditya Sharma',
         position: 'MS',
         branch: 'ECE/2019',
@@ -133,7 +134,7 @@ const Mentorship = () => {
         email: 'saditya56399@gmail.com'
       },
       {
-        photo: '',
+        photo: photo.blank,
         name: 'Parkarsh Kumar',
         position: 'MS',
         branch: 'ECE/2019',
@@ -141,7 +142,7 @@ const Mentorship = () => {
         email: 'parkarsh@gapp.nthu.edu.tw'
       },
       {
-        photo: '',
+        photo: photo.blank,
         name: 'C Binesh Kumar',
         position: 'MS',
         branch: 'ECE/2019',
@@ -149,7 +150,7 @@ const Mentorship = () => {
         email: 'chinnari@hm.edu'
       },
       {
-        photo: '',
+        photo: photo.blank,
         name: 'Arbind K Mahto',
         position: 'MS',
         branch: 'EEE/2018',
@@ -157,7 +158,7 @@ const Mentorship = () => {
         email: 'arbind23.08kumar@gmail.com'
       },
       {
-        photo: '',
+        photo: photo.anupam,
         name: 'Anupam R Tripathy',
         position: 'MS',
         branch: 'EEE/2018',
@@ -165,7 +166,7 @@ const Mentorship = () => {
         email: 'anupam@gapp.nthu.edu.tw'
       },
       {
-        photo: '',
+        photo: photo.blank,
         name: 'Kabita Mahato',
         position: 'MS',
         branch: 'EEE/2018',
@@ -173,7 +174,7 @@ const Mentorship = () => {
         email: ''
       },
       {
-        photo: '',
+        photo: photo.sachin,
         name: 'S Sachin Kumar',
         position: 'MS',
         branch: 'ECE/2017',
@@ -181,7 +182,7 @@ const Mentorship = () => {
         email: 'sachink1995@gapp.nthu.edu.tw'
       },
       {
-        photo: '',
+        photo: photo.blank,
         name: 'Saswati Panda',
         position: 'MS',
         branch: 'ECE/2017',
@@ -189,7 +190,7 @@ const Mentorship = () => {
         email: 'saswati.panda.582@my.csun.edu'
       },
       {
-        photo: '',
+        photo: photo.pancham,
         name: 'P P Pancham',
         position: 'MS',
         branch: 'ECE/2017',
@@ -197,7 +198,7 @@ const Mentorship = () => {
         email: 'pancham.eic06g@nctu.edu.tw'
       },
       {
-        photo: '',
+        photo: photo.subhaprakash,
         name: 'Subha P Mallick',
         position: 'MS',
         branch: 'ECE/2017',
@@ -210,7 +211,7 @@ const Mentorship = () => {
   return (
     <div className='text-center bg-gray-200 p-6 pt-4 mt-4 rounded-2xl drop-shadow-2xl mx-6 lg:mx-10 mb-8 font-serif'>
         <h1 className='mt-2 mb-7 lg:text-xl '>The following students were directly mentored to pursue their higher education in Indian and foreign universities during their undergraduate studies at NIST Berhampur. Majority of the students achieved their MS/PhD position in the mentioned universities with partial/full scholarship.</h1>
-        <div className='grid grid-cols-1 lg:grid-cols-3 gap-3'>
+        <div className='grid grid-cols-1 lg:grid-cols-4 gap-5'>
         {
           students.map(student => {
             return (<StudentCard photo={student.photo} name={student.name} position={student.position} branch={student.branch} university={student.university} email={student.email} />)

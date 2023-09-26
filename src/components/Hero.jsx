@@ -8,8 +8,8 @@ import {FaResearchgate} from 'react-icons/fa'
 const Hero = () => {
   return (
     <div className=''>
-        <section className="bg-texta mx-auto pb-12 px-4 items-center lg:flex lg:flex-row-reverse md:px-8">
-            <div className="flex-1 text-center">
+        <section className="bg-texta mx-auto pb-12 px-4 items-center lg:flex lg:flex-row md:px-8">
+            <div className="flex-1 text-center lg:pr-8">
                 <img src={sandipan} alt={sandipan}className="w-62 h-auto mx-auto sm:w-10/12 lg:w-full -w-fit rounded-2xl mt-4 drop-shadow-2xl" />
             </div>
             <div className=' lg:flex lg:justify-center p-6 bg-gray-200 rounded-2xl drop-shadow-2xl mt-4 lg:mt-0'>

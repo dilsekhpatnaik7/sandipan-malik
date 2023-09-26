@@ -1,6 +1,6 @@
 import React from 'react'
 // import { ClimbingBoxLoader } from 'react-spinners';
-import sandipan from '../assets/sandipangif.gif'
+import sandipan from '../assets/vid.svg'
 import './loader.css'
 
 const Loader = () => {

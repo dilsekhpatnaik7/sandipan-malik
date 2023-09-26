@@ -15,12 +15,12 @@ function App() {
   return (
     <BrowserRouter>
       <div className='h-auto'>
-        {
+        {/* {
           loading ?
           <Loader/>
           :
-          <MainComponent/>
-        }
+        } */}
+        <MainComponent/>
       </div>
     </BrowserRouter>
   );
